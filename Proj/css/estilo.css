@@ -1,0 +1,205 @@
+@charset"utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+    text-decoration: none;
+}
+
+main{
+	width: 100%;
+	height: 662px;
+}
+/*formatação cortina*/
+#cortina{
+    width: 100%;
+    height: 100%;
+    background-color: #fafa;
+    position:absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	visibility: hidden;
+	box-shadow:10px;
+
+}
+
+#cortina:target{
+    visibility: visible;
+}
+
+#fechar{
+    width: 5%;
+    height: 30px;
+    background-color: #ccc;
+    margin-left: 62%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+    text-shadow: 2px 2px 3px pink;
+}
+#conteudo_cortina{
+    width: 70%;
+    height: 70%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(241, 134, 187, 0.739));
+    border:black solid 0.5px;
+    border-radius: 4px;
+    overflow: auto;
+}
+/*formatação home no geral*/
+body{
+	background-image: linear-gradient(rgba(240, 69, 211, 0.719),rgba(241, 134, 187, 0.739),#fafa);
+
+}
+#cabecalho{
+	width: 100%;
+	height: 25%;
+	background-color: #fafa;
+}
+#logo{
+	width: 26%;
+	height: 100%;
+	background-image: url(../img/logo.png);
+	margin: auto;
+	border-radius: 100%;
+	background-size: 100%;
+}
+nav{
+	width: 25%;
+	height: 5%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+
+
+    
+}
+.icon{
+    width: 40px;
+   
+}
+
+li{
+	display: inline;
+	margin: 10px;
+    text-align: center;
+    line-height: 200%;
+    
+}
+
+
+/*formatação do conteudo*/
+#conteudo{
+	width: 50%;
+	height: 60%; 
+	margin: auto;
+	position: relative;
+	margin-top: 5%;
+	background-color: rgba(236, 89, 212, 0.609);
+	border-radius: 20px;
+   
+}
+
+#home{
+	position: absolute;
+	left: 0;
+	top: 100;
+	width: 50%;
+	height: 100%;
+	margin-left: 2.5em;
+}
+#titulo{
+	font-size: 1.8em;
+	position: absolute;
+	bottom: 52.5%;
+	color:rgba(0,0,0,0.5);
+
+	text-shadow: 1px 1px 1px ;
+    left: 1%;
+}
+span{
+	position: relative;
+	top: 36.5%;
+	font-size: 1.4em;
+	letter-spacing: -0.015em;
+    left: auto;
+	font-family: fantasy;
+	color:rgba(50,50,50,0.5);
+	right: 5%;
+
+}
+#home_img{
+	width: 50%;	
+	height: 100%;
+	background-image: url(../img/home.png);
+	float: right;
+	background-size: 100%;
+}
+/*decorão.html*/
+#decoracoes{
+    width: 60%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline ;
+
+}
+#conteudo_deco{
+	width: auto;
+	height: auto; 
+	margin: auto;
+	position: relative;
+	margin-top: 5%;
+	background-color:pink;
+
+}
+.foto{
+    width:200px;
+    height:200px;
+}
+.descri{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    margin-top:10%;
+    font-family: arial;
+    text-align: justify;
+    
+} 
+/*formatação do quem_somos.html*/
+#quem_somos{
+    width: 100%;
+    height: 100%;
+    margin: auto;   
+    margin-left: 1%;
+        
+} 
+/*contato.html*/
+
+#form_contato{
+	margin-top: 25px;
+    margin-left: 350px;
+}
+
+.input_form{
+	border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fafafa), color-stop(0.9, #ccc ) );
+	width: 280px;
+}
+
+.btn_form{
+	width: 100px;
+}
+
+footer{
+	width: 100%; 
+	text-align: center;
+	background-color: #fafa;	
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<script src="js/prototype.js" type="text/javascript"></script>
+</head>
+<body onLoad="new Ajax.Updater('conteudo','home.html')">
+	<main>
+        <section id="cortina">
+                <section id="fechar">
+                    <a href="">Fechar</a>  
+                </section>
+                <section id="conteudo_cortina"></section>
+            </section>
+		<section id="cabecalho">
+			<section id="logo"></section>
+		</section>	
+		<nav>
+			<ul>
+				<li><a href="#" onclickk="new Ajax.Updater('conteudo','decoracoes.html')"><img class="icon" src="img/icon_home2.png"></a></li>
+				<li><a href="#" onclick="new Ajax.Updater('conteudo','quem_somos.html')"><img class="icon" src="img/icon_home3.png"></a></li>
+				<li><a href="#cortina" onclick="new Ajax.Updater('conteudo_cortina','contato.html')"><img class="icon" src="img/icon_home4.png"></a></li>	
+			</ul>
+		</nav>
+		<section id="conteudo"></section>
+	</main>
+	<footer>
+		<h6 class="info">copyright@</h6> 
+		<h5 class="info">Feito por Jaydder Oliveira</h5>
+	</footer>	
+</body>
+	
+</html>

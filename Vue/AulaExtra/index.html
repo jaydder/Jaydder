@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Exemplo Vue.js</h1>
+
+    <div id="app">
+      <h2>{{name}} {{lastName}}</h2>
+      <h3>{{getFullName}}</h3>
+
+
+      <h1>Nota do Aluno</h1>
+      <h2>nota 1: {{grade1}}</h2>
+      <h2>nota 2: {{grade2}}</h2>
+      <h2>Média: {{calculateMediaArthmedtic}}</h2>
+      <p v-if="calculateMediaArthmedtic >= 9 && calculateMediaArthmedtic <= 10"> Conceito A</p>
+      <p v-if="calculateMediaArthmedtic >= 8 && calculateMediaArthmedtic <9"> Conceito B</p>
+
+      <button v-on:click="showMSG">Clique e veja o resultado</button>
+
+      <h1>Lista de Disciplinas</h1>
+      <p>Disciplinas do aluno {{name}} passou</p>
+      <ul v-show="showDisciplines">
+      <li v-for="discipline in disciplines">{{ discipline }}</li>
+      </ul>
+      <button v-on:click="showDisc">Ver disc!!</button>
+      <button v-on:click="noShowDisc">Não ver!!</button>
+      
+      <p v-show="active">Aluno matriculado e ativo!</p>
+      
+      <div v-for="product in products" :key= "product.ID"><hr> 
+      <hr>
+      <h1>Codigo: {{product.ID}}</h1>
+      <p>Cor do produto {{product.color}}</p>
+      
+      </div>
+        
+      
+      <p>Quantidade: {{quantity}} </p>
+    <button v-on:click="add">Adicionar qtd</button>
+    <button v-on:click="remove" v-show="quantity>0">Remove qtd</button>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="main.js" charset="utf-8"></script>
+
+  </body>
+</html>
