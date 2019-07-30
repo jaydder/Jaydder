@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript</title>
+    </head>
+    <body>  
+        <div id="app">
+        </div>
+        <script>
+
+          var linkElement = document.createElement('a');
+
+          linkElement.setAttribute('href' , 'http://www.google.com');
+          linkElement.setAttribute('title' , 'Site do google');
+
+          var textElement = document.createTextNode('Acessar');
+
+          linkElement.appendChild(textElement);
+
+          var conteinerElement = document.querySelector('#app');
+          conteinerElement.appendChild(linkElement);
+        </script>     
+    </body>
+</html>
