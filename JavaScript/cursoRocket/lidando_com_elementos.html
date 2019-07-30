@@ -5,12 +5,13 @@
     </head>
     <body>  
         <div id="app">
+            <input id="nome">
         </div>
         <script>
 
           var linkElement = document.createElement('a');
 
-          linkElement.setAttribute('href' , 'http://www.google.com');
+          linkElement.setAttribute('href', 'http://www.google.com');
           linkElement.setAttribute('title' , 'Site do google');
 
           var textElement = document.createTextNode('Acessar');
@@ -19,6 +20,9 @@
 
           var conteinerElement = document.querySelector('#app');
           conteinerElement.appendChild(linkElement);
+
+          var inputElement = document.querySelector('#nome');
+          conteinerElement.removeChild(inputElement);
         </script>     
     </body>
 </html>
