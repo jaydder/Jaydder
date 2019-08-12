@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>Exercício 01</title>
-</head>
+  <head>
+    <title>Exercício 06</title>
+  </head>
 
-<body>
-  <button id="new">Novo quadrado</button>
+  <body>
+    <button id="new">New square</button>
+    
+    <div id="squares"></div>  
+    
+    <script>
+      var buttonElement = document.getElementById('new');
+      var squaresElement = document.getElementById('squares');
+       
+      buttonElement.onclick = function() { 
+        var square = document.createElement('div');
 
-  <script>
-     
-  </script>
+        square.style.width = '100px';
+        square.style.heigth = '100px';
+        square.style.backgroundColor = '#F00';
+      
+        squaresElement.appendChild(square); 
+      };
+    </script>
 </body>
+
+</html>
