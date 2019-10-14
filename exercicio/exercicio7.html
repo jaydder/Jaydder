@@ -2,14 +2,14 @@
 <html lang="en">
 
   <head>
-    <title>Exercício 06</title>
+    <title>Exercício 07</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">      
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
   </head>
-
   <body>
     <button id="new">New square</button>
+    
     <div id="squares"></div>  
     
     <script>
@@ -26,7 +26,22 @@
         squaresElement.appendChild(square); 
       };
 
+      squaresElement.onmouseover = function() {
+        return NewColor;
+      }; 
+
+      function getRandomColor() {
+          var letters = '123456789ABCDEF';
+          var color = '#';
+          for (var i = 0; i < 6 ; i++) {
+              color += letters[Math.floor(Math.random()*16)];
+          }
+          return color;
+      }
+
+      var NewColor = getRandomColor();
     </script>
 </body>
+
 </html>
   
