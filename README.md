@@ -1,7 +1,7 @@
 <h1 align="center">Hi there <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px">, I'm Jaydder Oliveira</h1>
-<h3 align="center">I'm Quality Assurance since 2019 </h3>
+<h3 align="center">I'm Python developer since 2019 </h3>
 
-- 🌱 I’m currently learning [Python](https://www.python.org/), [Selenium](https://www.selenium.dev/), [React](https://pt-br.reactjs.org) and [Node.js](https://nodejs.org/en/)
+- 🌱 I’m currently learning [Python](https://www.python.org/), [Selenium](https://www.selenium.dev/) and [Docker](https://pt-br.reactjs.org)
 
 - 📫 How to reach me [Linkedin](https://www.linkedin.com/in/jaydder-oliveira/), e-mail [jaydderoliveira@gmail.com](jaydderoliveira@gmail.com)
 
@@ -10,13 +10,10 @@
 <br />
 <p align="lef">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"  width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain-wordmark.svg" alt="css3"  width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstap" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain-wordmark.svg" alt="docker" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="40" height="40"/>
 </p>
 <br />
 <br />
