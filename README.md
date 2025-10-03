@@ -45,8 +45,4 @@
 
 ###
 
-<br clear="both">
 
-<img src="https://raw.githubusercontent.com/jaydder/jaydder/output/snake.svg" alt="Snake animation" />
-
-###
